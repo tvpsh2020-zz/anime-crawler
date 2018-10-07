@@ -1,0 +1,21 @@
+common:
+  port: 8080
+  checkServerStatusTimeInMinute: 5
+  fetchTimeInMinute: 30
+  dmhyWebsiteUrl: 'https://share.dmhy.org/topics/list?keyword='
+smtpMail:
+  username: 'my@gmail.com'
+  password: '12345678'
+  server: 'smtp.gmail.com'
+  port: '587'
+  from: 'my@gmail.com'
+  to: 'my@gmail.com'
+anime:
+  - queryString: '紫羅蘭'
+    keywords:
+      - '动漫国'
+      - '動漫國'
+  - queryString: 'citrus'
+    keywords:
+      - '动漫国'
+      - '動漫國'
